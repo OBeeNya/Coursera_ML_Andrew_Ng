@@ -9,4 +9,11 @@
   For more than 2 values, we talk about *multiclass classification*.  
   
 *Hypothesis representation:*  
+  We want the output of our hypothesis function to be between 0 and 1.  
+  To obtain that, we use the *sigmoid function* or *logistic function*:  
+  ![alt text](https://i.imgur.com/632nilD.jpg)  
+  where we replace z by θ^Tx / h(x).  
+  Plotting of g(z):  
+  ![alt text](https://i.imgur.com/vDgnDsj.jpg)  
+  Function asymptote 0 in -∞ and asymptote 1 in +∞.  
   
