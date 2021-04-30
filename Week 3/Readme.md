@@ -62,6 +62,6 @@
   Repeat for each class.  
   For the prediction with a new input, we can select the hypothesis that returned the maximum probability.
   
-## ** Solving the Problem of Overfitting**
+## **Solving the Problem of Overfitting**
 
 *The problem of overfitting:*  
