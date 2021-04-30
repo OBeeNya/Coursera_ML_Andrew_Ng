@@ -35,3 +35,5 @@
   ![alt text](https://i.imgur.com/VcyeRe9.jpg)  
   ![alt text](https://i.imgur.com/Xuhwp2G.jpg) ![alt text](https://i.imgur.com/9fDbNPA.jpg)  
   
+*Simplified cost function and gradient descent:*  
+  
