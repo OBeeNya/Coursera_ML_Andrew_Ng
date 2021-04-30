@@ -21,4 +21,13 @@
   ![alt text](https://i.imgur.com/ipMfo87.jpg)  
   
 *Decision boundary:*  
+  y=1 if hθ(x)>0.5, meaning if θ^Tx>0.  
+  y=0 if θ^Tx<0.  
+  The *decision boundary* is the line that separates the area here y=0 and where y=1.  
+  For example, if θ=[a; b; c], y=1 if a+bx1+cx2>0, or bx1+cx2>-a.  
+  As for linear regression, the input to the sigmoid function can be of a complex form, e.g. hθ(x)=θ0+01x^2+θ2x1x2^2...
+  
+## **Logistic Regression Model**
+
+*Cost function:*  
   
