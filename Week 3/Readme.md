@@ -42,4 +42,9 @@
   ![alt text](https://i.imgur.com/IUGfeEc.png)  
   Vectorized implementation:  
   ![alt text](https://i.imgur.com/ZZifZh2.png)  
+  The formula of gradient descent is identical to the one for multivariate linear regression.  
+  Vectorized implementation of gradient descent:  
+  ![alt text](https://i.imgur.com/hD8i4Y3.png)  
+  
+*Advanced optimization:*  
   
