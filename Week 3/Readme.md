@@ -39,5 +39,5 @@
   We can regroup the two cost functions into one equation as follows:  
   ![alt text](https://i.imgur.com/wDYRpt1.png)  
   therefore  
-  ![alt text](blob:https://imgur.com/adb48417-e222-456e-8437-6d477cd0b7cc)  
+  ![alt text](https://i.imgur.com/IUGfeEc.png)  
   
