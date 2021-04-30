@@ -36,4 +36,5 @@
   ![alt text](https://i.imgur.com/Xuhwp2G.jpg) ![alt text](https://i.imgur.com/9fDbNPA.jpg)  
   
 *Simplified cost function and gradient descent:*  
+  We can regroup the two cost functions into one equation as follows:  
   
