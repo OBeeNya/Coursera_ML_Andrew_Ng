@@ -16,4 +16,7 @@
   Plotting of g(z):  
   ![alt text](https://i.imgur.com/vDgnDsj.jpg)  
   Function asymptote 0 in -∞ and asymptote 1 in +∞.  
+  Interpretation:  
+  g(hθ(x)), which becomes hθ(x) gives us the probability that our output is 1.  
+  ![alt text](https://i.imgur.com/ipMfo87.jpg)  
   
