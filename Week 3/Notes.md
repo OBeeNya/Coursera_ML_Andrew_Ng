@@ -30,4 +30,7 @@
 ## **Logistic Regression Model**
 
 *Cost function:*  
+  We cannot use the same cost function that we use for linear regression because the logistic function will cause the ouput to be wavy, causing many local optima (i.e. not a convex function).  
+  The cost function that corrects this is as follows:  
+  ![alt text](https://i.imgur.com/VcyeRe9.jpg)  
   
