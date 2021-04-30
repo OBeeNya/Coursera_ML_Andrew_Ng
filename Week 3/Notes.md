@@ -20,3 +20,5 @@
   g(hθ(x)), which becomes hθ(x) gives us the probability that our output is 1.  
   ![alt text](https://i.imgur.com/ipMfo87.jpg)  
   
+*Decision boundary:*  
+  
