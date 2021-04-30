@@ -40,4 +40,6 @@
   ![alt text](https://i.imgur.com/wDYRpt1.png)  
   therefore  
   ![alt text](https://i.imgur.com/IUGfeEc.png)  
+  Vectorized implementation:  
+  ![alt text](https://i.imgur.com/ZZifZh2.png)  
   
