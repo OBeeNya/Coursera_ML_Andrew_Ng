@@ -47,4 +47,13 @@
   ![alt text](https://i.imgur.com/hD8i4Y3.png)  
   
 *Advanced optimization:*  
+  Other techniques allow for better optimizations of cost functions than gradient descent, especially on large scales.  
+  Such as *conjugate gradient*, *BFGS* and *L-BFGS*.  
+  We will not look at the details of those algorithms (more advanced).  
+  Some of there interesting properties: no need to define an α and usually faster computation.  
+  It's not recommanded to write your own algorithms for those, but better to use already well implemented software libraries.  
+  Look at the documentation of each pre-existing function to properly understand how to use them, what inputs are expected are what outpurs are produced.  
   
+## **Multiclass Classification**
+
+*Multiclass classification: One-vs-all:*  
