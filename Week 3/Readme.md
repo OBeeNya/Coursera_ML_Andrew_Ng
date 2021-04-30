@@ -57,3 +57,11 @@
 ## **Multiclass Classification**
 
 *Multiclass classification: One-vs-all:*  
+  Instead of a binary classification problem where we have y={0;1}, we have y={0;1;2;...;n}.  
+  The method is to chose one class and apply binary logistic regression to evaluate its probability, against all other classes.  
+  Repeat for each class.  
+  For the prediction with a new input, we can select the hypothesis that returned the maximum probability.
+  
+## ** Solving the Problem of Overfitting**
+
+*The problem of overfitting:*  
