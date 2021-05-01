@@ -52,7 +52,7 @@ ___
   
 function [J, grad] = costFunctionReg(theta, X, y, lambda)
 
-m = length(y); % number of training examples
+m = length(y);
 
 J = 0;
 grad = zeros(size(theta));
