@@ -94,5 +94,5 @@
 
 *Regularized logistic regression:*  
   Updated cost function:  
-  ![alt text](https://i.imgur.com/uLO3nRR.png)  
+  ![alt text](https://i.imgur.com/mpGpXbr.png)  
   
