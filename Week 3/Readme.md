@@ -74,7 +74,7 @@
 
 *Cost function:*  
   Regularization consists of adding the parameters to the cost function so that when we try to minimze the cost function, we also are minimizing the parameters.  
-  We are *penaliazing* the parameters.  
+  We are *penalizing* the parameters.  
   Using smaller values for the parameters forms a "simpler" hypothesis.  
   We don't know which parameters to pick in advance so we add them all as follows:  
   ![alt text](https://i.imgur.com/FtamwUj.png)  
