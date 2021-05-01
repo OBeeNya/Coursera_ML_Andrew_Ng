@@ -73,4 +73,14 @@
   - use *regularization*, we keep all the features but reduce the magnitude of the parameters, works well with a lot of slightly useful features.
 
 *Cost function:*  
+  Regularization consists of adding the parameters to the cost function so that when we try to minimze the cost function, we also are minimizing the parameters.  
+  We are *penaliazing* the parameters.  
+  Using smaller values for the parameters forms a "simpler" hypothesis.  
+  We don't know which parameters to pick in advance so we add them as follows:  
+  ![alt text](https://i.imgur.com/FtamwUj.png)  
+  The added term is the *regularization term* and 𝜆 is the *regularization parameter*.  
+  By convention we do not penalize 𝜃0.  
+  If 𝜆 is too large, we will penalize the parameters too much and the hypothesis function will be underfitting.  
+  
+*Regularized linear regression:*  
   
