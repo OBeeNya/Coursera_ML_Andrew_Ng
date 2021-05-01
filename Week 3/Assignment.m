@@ -26,7 +26,7 @@ ___
   
 function [J, grad] = costFunction(theta, X, y)
 
-m = length(y); % number of training examples
+m = length(y);
 
 J = 0;
 grad = zeros(size(theta));
@@ -40,7 +40,7 @@ ___
   
 function p = predict(theta, X)
 
-m = size(X, 1); % Number of training examples
+m = size(X, 1);
 
 p = zeros(m, 1);
 
