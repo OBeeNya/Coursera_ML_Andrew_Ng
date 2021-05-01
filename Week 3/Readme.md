@@ -83,4 +83,11 @@
   If 𝜆 is too large, we will penalize the parameters too much and the hypothesis function will be underfitting.  
   
 *Regularized linear regression:*  
-  
+  The updated formula for gradient descent is as follows (we update 𝜃0 separately as said before):  
+  ![alt text](https://i.imgur.com/tQhcMzr.png)  
+  We can take out the part concerning 𝜃, so that on every iteration we are shrinking 𝜃 a little:  
+  ![alt text](https://i.imgur.com/4913XjM.png)  
+  Updated formula for the normal equation:  
+  ![alt text](https://i.imgur.com/uLO3nRR.png)  
+  L of dimensions (n+1)x(n+1), and we do not include x0.  
+  This also resolves the issue of noninvertability.  
