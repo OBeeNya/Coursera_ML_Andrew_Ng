@@ -91,3 +91,6 @@
   ![alt text](https://i.imgur.com/uLO3nRR.png)  
   L of dimensions (n+1)x(n+1), and we do not include x0.  
   This also resolves the issue of noninvertability.  
+
+*Regularized logistic regression:*  
+  
