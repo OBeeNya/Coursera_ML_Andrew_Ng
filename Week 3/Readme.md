@@ -95,4 +95,4 @@
 *Regularized logistic regression:*  
   Updated cost function:  
   ![alt text](https://i.imgur.com/mpGpXbr.png)  
-  
+  Updated gradient descent formula looks identical to regularized linear regression, just remember that h0(x) represents the sigmoid function.
