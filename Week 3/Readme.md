@@ -65,3 +65,12 @@
 ## **Solving the Problem of Overfitting**
 
 *The problem of overfitting:*  
+  When working on a hypothesis function, we might be underfitting (high bias) or overfitting.  
+  In the case of overfitting (usually when we have too many features), the hypothesis might fit perfectly thez training set but fails to generalize to new examples.  
+  Plotting / visualizing to intuitively detect the position we're in might be too difficult when using too many features.  
+  The two main options to address that issue are :  
+  - reducing the number of features (manually or with *model solution algorithm*), but maybe all features are useful;  
+  - use *regularization*, we keep all the features but reduce the magnitude of the parameters, works well with a lot of slightly useful features.
+
+*Cost function:*  
+  
