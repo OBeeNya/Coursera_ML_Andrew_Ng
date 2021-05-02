@@ -28,6 +28,11 @@ If network has sj units in layer j and sj+1 units in layer j+1, then ![alt text]
 For a simple neural network like this:  
 ![alt text](https://i.imgur.com/p3C2XQp.png)  
 the values of each activation nodes are as follows:  
-![alt text](https://i.imgur.com/0MAoPiH.png)  
+![alt text](https://i.imgur.com/hOc1s65.png)  
 
 *Model representation II:*  
+Let's look at the vectorized implementation of this *forward propagation*.  
+Let's define a new variable:  
+![alt text](https://i.imgur.com/LzFUXSE.png)  
+then:  
+![alt text](https://i.imgur.com/ENkwW52.png)  
