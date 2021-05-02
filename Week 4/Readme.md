@@ -36,3 +36,10 @@ Let's define a new variable:
 ![alt text](https://i.imgur.com/5Eq6dlr.png), for layer j and node k  
 then:  
 ![alt text](https://i.imgur.com/ENkwW52.png)  
+We can rewrite the equation as follows:  
+![alt text](https://i.imgur.com/5zApad8.png)  
+We add a bias unit so that a0=1 for each hidden layer.  
+For the final vector, the last θ matrix must have only one row so that our result is a single number.
+
+## **Applications**
+
