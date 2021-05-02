@@ -43,3 +43,9 @@ For the final vector, the last θ matrix must have only one row so that our resu
 
 ## **Applications**
 
+*Examples and intuitions I:*  
+A small neural network can be used to simulate a logical gate instead of using the actual operator.  
+Example for the OR operator:  
+![alt text](https://i.imgur.com/jcY2q16.png)  
+
+*Examples and intuitions II:*  
