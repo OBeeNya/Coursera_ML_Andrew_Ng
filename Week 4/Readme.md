@@ -33,6 +33,6 @@ the values of each activation nodes are as follows:
 *Model representation II:*  
 Let's look at the vectorized implementation of this *forward propagation*.  
 Let's define a new variable:  
-![alt text](https://i.imgur.com/LzFUXSE.png)  
+![alt text](https://i.imgur.com/5Eq6dlr.png), for layer j and node k  
 then:  
 ![alt text](https://i.imgur.com/ENkwW52.png)  
