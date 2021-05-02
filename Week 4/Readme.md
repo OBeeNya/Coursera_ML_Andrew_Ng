@@ -25,5 +25,9 @@ The hidden layers *nodes* can be called *activation units*.
 ![alt text](https://i.imgur.com/VlBdVxy.png) activation of unit i in layer j  
 ![alt text](https://i.imgur.com/Y1a8z8e.png) matrix of weights controlling function mapping from layer j to layer j+1  
 If network has sj units in layer j and sj+1 units in layer j+1, then ![alt text](https://i.imgur.com/Y1a8z8e.png) will be of dimensions sj+1*(sj + 1)  
+For a simple neural network like this:  
+![alt text](https://i.imgur.com/p3C2XQp.png)  
+the values of each activation nodes are as follows:  
+![alt text](https://i.imgur.com/0MAoPiH.png)  
 
 *Model representation II:*  
