@@ -49,3 +49,7 @@ Example for the OR operator:
 ![alt text](https://i.imgur.com/jcY2q16.png)  
 
 *Examples and intuitions II:*  
+Using layers allows the computation of functions "on top" of other functions.  
+Let's say we use a hidden layer where the first node is using AND parameters, and the second node NOR parameters.  
+If the output layer, use OR parameters on the hidden layer, the total network is computing the XNOR logical gate.  
+![alt text](https://i.imgur.com/X1g0ylm.png)  
