@@ -9,3 +9,9 @@ Computing with polynomial terms of one hundred features would be way too expensi
 [Learn more about algorithmic complexity](https://devopedia.org/algorithmic-complexity)
 
 *Neurons and the brain:*  
+The hypothesis of the *one learning algorithm* is based on the fact that the same part of the brain tissue can execute different tasks when performing neuro-rewiring experiments.  
+If we figure out the brain's algorithm, we can implement some approximation of that algorithm on a computer.
+
+## **Neural Networks**
+
+*Model representation I:*  
