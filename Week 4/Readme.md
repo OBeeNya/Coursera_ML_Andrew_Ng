@@ -53,3 +53,9 @@ Using layers allows the computation of functions "on top" of other functions.
 Let's say we use a hidden layer where the first node is using AND parameters, and the second node NOR parameters.  
 If the output layer, use OR parameters on the hidden layer, the total network is computing the XNOR logical gate.  
 ![alt text](https://i.imgur.com/X1g0ylm.png)  
+
+*Multiclass classification:*  
+We still use one-vs-all method.  
+Difference is that now the output layer is composed of several nodes instead of a real value, one for each possibility.  
+Each of these nodes is a vector composed of 0 and 1.  
+Similarly, in the training set, y must be represented as the same vectors.
