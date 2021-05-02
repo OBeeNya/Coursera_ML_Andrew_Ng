@@ -1,5 +1,5 @@
 # **WEEK 5**
 
-## **Cost Function and Back Propagation**  
+## **Cost Function and Backpropagation**  
 
 *Cost function:*  
