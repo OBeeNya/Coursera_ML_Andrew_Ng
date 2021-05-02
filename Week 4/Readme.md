@@ -15,3 +15,15 @@ If we figure out the brain's algorithm, we can implement some approximation of t
 ## **Neural Networks**
 
 *Model representation I:*  
+Neurons are basically units that take inputs (dendrites) and channel output (axons).  
+In our model, dendrites are the input features X and the output is the hypothesis function.  
+In this model, the x0 input is sometimes called the *bias unit*, always equal to 1, and not always represented.  
+In neural networks, we use the same function as classification, yet we sometimes call it a *sigmoid (logistic) activation function*.  
+In neural networks, parameters are sometimes called *weights*.  
+Layers between the input and output layers are called *hidden layers*.  
+The hidden layers *nodes* can be called *activation units*.  
+![alt text](https://i.imgur.com/VlBdVxy.png) activation of unit i in layer j  
+![alt text](https://i.imgur.com/Y1a8z8e.png) matrix of weights controlling function mapping from layer j to layer j+1  
+If network has sj units in layer j and sj+1 units in layer j+1, then ![alt text](https://i.imgur.com/Y1a8z8e.png) will be of dimensions sj+1*(sj + 1)  
+
+*Model representation II:*  
