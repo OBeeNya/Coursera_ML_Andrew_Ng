@@ -33,3 +33,10 @@ Finally:
 - ![alt text](https://i.imgur.com/pjDl9jQ.jpg) for j!=0, and without the regularization term for j=0  
 D is used as an accumulator to add up our values as we go along and eventually compute our partial derivative as:  
 ![alt text](https://i.imgur.com/F7eQ8U3.jpg)
+
+*Backpropagation intuition:*  
+![alt text](https://i.imgur.com/8XZowjq.jpg)
+
+## **Backpropagation in Practive:**
+
+*Implementation note: unrolling parameters:*  
