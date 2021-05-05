@@ -28,3 +28,4 @@ For training examples t=1 to m:
 a2=g(z1)  
 - Using yt, compute 𝛿L=aL-yt
 - Perform backward propagation and compute ![alt text](https://i.imgur.com/mMG6upu.jpg)  
+- 
