@@ -28,4 +28,8 @@ For training examples t=1 to m:
 a2=g(z1)  
 - Using yt, compute 𝛿L=aL-yt
 - Perform backward propagation and compute ![alt text](https://i.imgur.com/mMG6upu.jpg)  
-- 
+- ![alt text](https://i.imgur.com/Gtdg4Bh.jpg) or with vectorization ![alt text](https://i.imgur.com/fyDU0jK.jpg)  
+Finally:  
+- ![alt text](https://i.imgur.com/pjDl9jQ.jpg) for j!=0, and without the regularization term for j=0  
+D is used as an accumulator to add up our values as we go along and eventually compute our partial derivative as:  
+![alt text](https://i.imgur.com/F7eQ8U3.jpg)
