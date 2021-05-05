@@ -14,3 +14,9 @@ The triple sum adds up the square of all individuals θ in the entire network.
 The i in the triple sum does not refer to training example i.
 
 *Backpropagation algorithm:*  
+Backpropagation is neural-network terminology for minimizing our cost function.  
+The backpropagation algorithm is used to compute the partial derivative of J(θ) : ![alt text](https://i.imgur.com/SeSWDXP.jpg)  
+- Set ![alt text](https://i.imgur.com/vteHPgQ.jpg)  
+For training examples t=1 to m:  
+- Set ![alt text](https://i.imgur.com/fYeqNrp.jpg)  
+- 
