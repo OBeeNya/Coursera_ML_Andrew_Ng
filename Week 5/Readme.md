@@ -15,7 +15,10 @@ The i in the triple sum does not refer to training example i.
 
 *Backpropagation algorithm:*  
 Backpropagation is neural-network terminology for minimizing our cost function.  
-The backpropagation algorithm is used to compute the partial derivative of J(θ) : ![alt text](https://i.imgur.com/SeSWDXP.jpg)  
+The backpropagation algorithm is used to compute the partial derivative of J(θ) : ![alt text](https://i.imgur.com/SeSWDXP.jpg), where 𝛿lj represents the "error" of node j in layer l  
+𝛿lj = aLj - yj for each output unit, or in vectorized form 𝛿L = aL - y  
+For inner layers: ![alt text](https://i.imgur.com/OHiBvzq.jpg)  
+where ![alt text](https://i.imgur.com/7vvh7RE.jpg)  
 - Set ![alt text](https://i.imgur.com/vteHPgQ.jpg)  
 For training examples t=1 to m:  
 - Set ![alt text](https://i.imgur.com/fYeqNrp.jpg)  
