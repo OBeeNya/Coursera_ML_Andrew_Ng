@@ -20,8 +20,11 @@ The backpropagation algorithm is used to compute the partial derivative of J(θ)
 For inner layers: ![alt text](https://i.imgur.com/OHiBvzq.jpg)  
 where ![alt text](https://i.imgur.com/7vvh7RE.jpg)  
 No 𝛿1 computed cause no errors on training set.  
-Using vectorization, 
-First we set ![alt text](https://i.imgur.com/vteHPgQ.jpg)  
+Using vectorization, ![alt text](https://i.imgur.com/Za7acMC.jpg)  
+For gradient computation, first we set ![alt text](https://i.imgur.com/vteHPgQ.jpg)  
 For training examples t=1 to m:  
 - Set ![alt text](https://i.imgur.com/fYeqNrp.jpg)  
-- 
+- Perform forward propagation to compute al for l=2,3...L  
+a2=g(z1)  
+- Using yt, compute 𝛿L=aL-yt
+- Perform backward propagation and compute ![alt text](https://i.imgur.com/mMG6upu.jpg)  
