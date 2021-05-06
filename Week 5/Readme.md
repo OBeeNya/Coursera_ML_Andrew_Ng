@@ -83,6 +83,7 @@ The usual steps to train a neural networks are as follows:
 - implement back propagation to compute partial derivatives;  
 - use gradient checking to confirm that backprop worked (then disable it);  
 - use gradient descent or an advanced optimization algorithm to minimize the cost function.  
+
 When performing forward and backprop, we loop on every training example:  
 for i=1:m,  
 perform forward + backprop using xi and yi  
