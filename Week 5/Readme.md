@@ -93,4 +93,4 @@ compute D.
 
 ## **Application of Neural Networks**
 
-*Autonomous driving:*  
+*Autonomous driving*
