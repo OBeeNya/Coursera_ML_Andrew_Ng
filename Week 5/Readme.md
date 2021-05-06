@@ -72,3 +72,20 @@ for Theta1 a matrix of dimensions mxn.
 The epsilon used here is not related to the one used in gradient checking.  
 
 *Putting it together:*  
+First pick a network architecture, meaning the number of layers and number of nodes in the hidden layers.  
+The number of input units corresponds to the number of features and the number of output units corresponds to the number of classes.  
+A reasonable default is 1 hidden layer.  
+For more than 1 hidden layer, a reasonable default is having the same number of nodes in each hidden layer.  
+The usual steps to train a neural networks are as follows:  
+- randomly initialize weights;  
+- perform forward propagation to get hθ(xi) for any xi;  
+- implement cost function;  
+- implement back propagation to compute partial derivatives;  
+- use gradient checking to confirm that backprop worked (then disable it);  
+- use gradient descent or an advanced optimization algorithm to minimize the cost function.  
+When performing forward and backprop, we loop on every training example:  
+for i=1:m,  
+perform forward + backprop using xi and yi  
+get activations a(l) and delta terms 𝛿l for l=1...L  
+get Δ  
+compute 
