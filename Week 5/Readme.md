@@ -50,10 +50,10 @@ Theta1 = reshape(thetaVector(1:110),10,11);
 *Gradient checking:*  
 Backpropagation can be tricky to implement and can look as if it's working properly even with subtle bugs.  
 Numerical gradient checking can give us the confidence that the computation is correct.  
-![alt text](https://i.imgur.com/n1uwWXL.jpg)
+![alt text](https://i.imgur.com/n1uwWXL.jpg)  
 epsilon should be taken pretty small, such as 10^-4.  
 Example of implementation in octave:  
-epsilon = 1e-4;
+epsilon = 1e-4;  
 for i = 1:n,  
   thetaPlus = theta;  
   thetaPlus(i) += epsilon;  
