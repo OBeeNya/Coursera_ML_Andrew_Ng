@@ -40,3 +40,11 @@ D is used as an accumulator to add up our values as we go along and eventually c
 ## **Backpropagation in Practive:**
 
 *Implementation note: unrolling parameters:*  
+Advanced optimization algorithms (such as fminunc) assume that the parameters are in vector form.  
+But in neural networks, we are working with parameters θ and gradients D in the form of matrices.  
+We need to "unroll" them in order to use the optimizing functions.  
+thetaVector = [ Theta1(:) ; Theta2(:) ; Theta3(:) ];  
+And to get to the original matrices (if Theta1 is of dimensions 10x11 in this example):  
+Theta1 = reshape(thetaVector(1:110),10,11);
+
+*Gradient checking:*  
