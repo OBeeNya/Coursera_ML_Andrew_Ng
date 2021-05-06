@@ -89,4 +89,8 @@ for i=1:m,
 perform forward + backprop using xi and yi  
 get activations a(l) and delta terms 𝛿l for l=1...L  
 get Δ  
-compute 
+compute D.
+
+## **Application of Neural Networks**
+
+*Autonomous driving:*  
