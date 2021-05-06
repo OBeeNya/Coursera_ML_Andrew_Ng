@@ -65,3 +65,10 @@ You can then check that gradApprox approximates to DVec.
 Once you verified it, you should turn off that computation, otherwise your code will be very slow.
 
 *Random initialization:*  
+Unlike for logistic regression, initializing all parameters to 0 won't work because then all a2 nodes will be equal, same later for all gradient derivatives and computed parameters.  
+To address this issue, we use random initialization (or *symmetry breaking*) as such:  
+Theta1 = rand(m,n) * (2 * init_epsilon) - init_epsilon;  
+for Theta1 a matrix of dimensions mxn.  
+The epsilon used here is not related to the one used in gradient checking.  
+
+*Putting it together:*  
