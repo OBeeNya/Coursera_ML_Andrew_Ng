@@ -70,6 +70,7 @@ To address this issue, we use random initialization (or *symmetry breaking*) as 
 Theta1 = rand(m,n) * (2 * init_epsilon) - init_epsilon;  
 for Theta1 a matrix of dimensions mxn.  
 The epsilon used here is not related to the one used in gradient checking.  
+A good choice of init_epsilon is ![alt text](https://i.imgur.com/BaCF1tm.png)  
 
 *Putting it together:*  
 First pick a network architecture, meaning the number of layers and number of nodes in the hidden layers.  
