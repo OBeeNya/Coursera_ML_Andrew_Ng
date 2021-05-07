@@ -37,7 +37,7 @@ D is used as an accumulator to add up our values as we go along and eventually c
 *Backpropagation intuition:*  
 ![alt text](https://i.imgur.com/8XZowjq.jpg)
 
-## **Backpropagation in Practive:**
+## **Backpropagation in Practice:**
 
 *Implementation note: unrolling parameters:*  
 Advanced optimization algorithms (such as fminunc) assume that the parameters are in vector form.  
