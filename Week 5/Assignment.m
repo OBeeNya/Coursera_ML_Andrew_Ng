@@ -41,7 +41,6 @@ Theta1_grad(:,2:end) = Theta1_grad(:,2:end)+(lambda*Theta1(:,2:end))/m;  % regul
 % Unroll gradients
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
 
-
 end
                
 ___
