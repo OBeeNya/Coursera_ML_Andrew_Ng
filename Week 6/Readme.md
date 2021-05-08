@@ -36,3 +36,12 @@ High Jtrain + high Jcv + Jcv almost equal to Jtrain => high bias / underfitting
 Low Jtrain + Jcv >> Jtrain => high variance / underfitting
 
 *Regularization and bias/variance:*  
+Chosing lambda:  
+1. Create a range of lambdas  
+2. Create set of models with different ds  
+3. For each lambda go through all the models and learn some parameters  
+4. Compute the cross validation error without regularization
+5. Select the best combo that produces the lowest error on the cross validation set
+6. Use the best parameters and lambda on Jtest to see if it's a good generalization
+
+*Learning curves:*  
