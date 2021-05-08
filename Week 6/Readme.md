@@ -49,7 +49,7 @@ Chosing lambda:
 Plotting the errors of Jtrain and Jcv as functions of the training set size helps visualizing possible bias and/or variance issues.  
 High bias:  
 - low training set size: low Jtrain and high Jcv
-- high training set size: high Jtrain and high Jcv with both being close
+- high training set size: high Jtrain and high Jcv with both being close  
 ![alt text](https://i.imgur.com/wWahTHH.png)  
 Getting more data won't help.
 
