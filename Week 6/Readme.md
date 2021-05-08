@@ -29,3 +29,10 @@ This prevents using the test set with a polynomial degree that was fit to it.
 ## **Bias vs Variance**
 
 *Diagnosing bias vs variance:*  
+A high bias represents underfitting and high variance represents overfitting.  
+The training error will tend to only decrease as we increase d, but the cross validation error will tend to first decrease then increase.  
+![alt text](https://i.imgur.com/ogtdZ55.png)  
+High Jtrain + high Jcv + Jcv almost equal to Jtrain => high bias / underfitting  
+Low Jtrain + Jcv >> Jtrain => high variance / underfitting
+
+*Regularization and bias/variance:*  
