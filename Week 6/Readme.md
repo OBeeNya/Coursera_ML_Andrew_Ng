@@ -18,3 +18,14 @@ with:
 ![alt text](https://i.imgur.com/jNwIFsh.png)  
 
 *Model selection and train/validation/test sets:*  
+Chosing which polynomial degre use for your hypothesis is part of your model selection process.  
+d := polynomial degree  
+Split up your dataset not in 2 but in 3 sets: training set (60%), cross validation set (20%) and test set (20%).  
+Optimize the parameters using the training set for each polynomial degree (maybe up to 10).  
+Find the polynomial degree with the lowest error using the validation set (using cost function).  
+Estimate the generalization error using the test set as seen in previous part.  
+This prevents using the test set with a polynomial degree that was fit to it.
+
+## **Bias vs Variance**
+
+*Diagnosing bias vs variance:*  
