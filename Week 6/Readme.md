@@ -68,3 +68,7 @@ Decreasing lambda => fixers high bias
 Increasing lambda => fixes high variance  
 For neural networks, small networks can be underfitting while large overfitting.  
 If one hidden layer is a good default choice, we can experiment with different numbers of hidden layers and compute Jcv for each.
+
+## **Building a Spam Classifier**
+
+*Prioritizing what to work on:*  
