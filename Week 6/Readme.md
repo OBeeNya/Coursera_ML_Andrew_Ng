@@ -60,3 +60,11 @@ High variance:
 Getting more data is likely to help.
 
 *Deciding what to do next revisited:*  
+More training examples => fixes high variance  
+Smaller set of features => fixes high variance  
+Adding features => fixes high bias  
+Polynomial features => fixes high bias  
+Decreasing lambda => fixers high bias  
+Increasing lambda => fixes high variance  
+For neural networks, small networks can be underfitting while large overfitting.  
+If one hidden layer is a good default choice, we can experiment with different numbers of hidden layers and compute Jcv for each.
