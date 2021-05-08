@@ -46,3 +46,17 @@ Chosing lambda:
 ![alt text](https://i.imgur.com/eCDTyv0.png)  
 
 *Learning curves:*  
+Plotting the errors of Jtrain and Jcv as functions of the training set size helps visualizing possible bias and/or variance issues.  
+High bias:  
+- low training set size: low Jtrain and high Jcv
+- high training set size: high Jtrain and high Jcv with both being close
+![alt text](https://i.imgur.com/wWahTHH.png)  
+Getting more data won't help.
+
+High variance:
+- low training set size: low Jtrain and high Jcv
+- high training set size: Jtrain increasses and Jcv decreases without leveling off. Also Jcv >> J train.
+![alt text](https://i.imgur.com/OhVvDnW.png)  
+Getting more data is likely to help.
+
+*Deciding what to do next revisited:*  
