@@ -12,7 +12,7 @@ A good way to see if your hypothesis is valid is to first randomly split your da
 Compute then the test set error with the parameters obtained from the training set.  
 For linear regression:  
 ![alt text](https://i.imgur.com/YBrc7yn.png)  
-For logistic regression, you can also use the equivalent cost function, an alternative exists:  
+For logistic regression, you can also use the equivalent cost function, but an alternative exists:  
 ![alt text](https://i.imgur.com/OWKd7wE.png)  
 with:  
 ![alt text](https://i.imgur.com/jNwIFsh.png)  
