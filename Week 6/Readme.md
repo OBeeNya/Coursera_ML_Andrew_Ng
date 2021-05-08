@@ -43,5 +43,6 @@ Chosing lambda:
 4. Compute the cross validation error without regularization
 5. Select the best combo that produces the lowest error on the cross validation set
 6. Use the best parameters and lambda on Jtest to see if it's a good generalization
+![alt text](https://i.imgur.com/eCDTyv0.png)  
 
 *Learning curves:*  
