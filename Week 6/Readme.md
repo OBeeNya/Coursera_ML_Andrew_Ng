@@ -87,3 +87,11 @@ Recommended approach:
 ## **Handling Skewed Data**
 
 *Error metrics for skewed classes:*  
+Skewed classes is a case where one class is much more present than the other (maybe 99% vs 1%).  
+In this situation, an algorithm being right 99% of the time is not very impressive and may not be performant at all.  
+Different evaluation metrics can be used, let's take the following binary classification example:  
+![alt text](https://i.imgur.com/2RtHGMN.png)  
+Precision = true positive / (true positive + false positive)  
+Recall = true positive / (true positive + false negative)
+
+*Trading off precision and recall:*  
