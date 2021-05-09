@@ -95,3 +95,14 @@ Precision = true positive / (true positive + false positive)
 Recall = true positive / (true positive + false negative)
 
 *Trading off precision and recall:*  
+If we want to predict a true statement only if we are very confident, we could increase the threshold for predicting 1, for example 0.5 -> 0.7.  
+This would give us higher precision but lower recall.  
+On the opposite, if we want to avoid missing true statements / avoid false negatives, we could lower the threshold, obtaining lower precision but higher recall.  
+Comparing precision and recall numbers using an avergae of both is not a good idea.  
+We can instead use the F1 score on numbers obtained from the cross validation set:  
+![alt text](https://i.imgur.com/iwHm9tb.png)  
+This is just one of many possible formulas, but this one is pretty popular and useful.
+
+## **Using Large Data Sets**
+
+*Data for machine learning:*  
