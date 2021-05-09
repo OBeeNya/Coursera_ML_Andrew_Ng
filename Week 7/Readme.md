@@ -6,6 +6,8 @@
 Support Vector Machine (SVM) is a very powerful and widely used algorithm, and can sometimes give a cleaner way of learning non-linear functions than logistic regression and neural networks.  
 We are going to tweak the cost function so that the hypothesis equations are represented as such:  
 ![alt text](https://i.imgur.com/KD5GiG1.png)  
+So we want h(x) to be superior to 1 if y=1, and inferior to -1 if y=0.  
+Instead of having it superior and inferior to 0.  
 The equation for the cost function is as follows:  
 ![alt text](https://i.imgur.com/gKVL71F.png)  
 Where we got rid by convention of 1/m, the values of the parameters being identical when minimizing the cost function.  
