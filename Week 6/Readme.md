@@ -72,3 +72,9 @@ If one hidden layer is a good default choice, we can experiment with different n
 ## **Building a Spam Classifier**
 
 *Prioritizing what to work on:*  
+Machine learning system design, which strategy and what to prioritize, example of a spam classifier.  
+A feature can be a list of words, the most recurrent in spam and non-span emails, where their absence and presence are correlated with the nature of the mail.  
+You can try improving the accuracy of your system by collecting lots of data, or developing sophisticated features based on email routing info, or message body, or to detect misspellings.  
+Brainstorming in advance is a good idea but you shouldn't fixate on one solely based on gut feeling.
+
+*Error analysis:*  
