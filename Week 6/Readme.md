@@ -78,3 +78,12 @@ You can try improving the accuracy of your system by collecting lots of data, or
 Brainstorming in advance is a good idea but you shouldn't fixate on one solely based on gut feeling.
 
 *Error analysis:*  
+Recommended approach:
+- start with a simple, quick and dirty implementation and test it on CV;
+- plot learning curves to try and decide what is likely to help, avoiding premature optimization;
+- error analysis: manually examine examples that the algorithm made an error on and try spotting any systematic trend;
+- sometimes error analysis is not very easy or helpful to implement. Numerical evaluation can give the performance of an algo with and without a "technique" (more on this later).
+
+## **Handling Skewed Data**
+
+*Error metrics for skewed classes:*  
