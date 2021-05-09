@@ -106,3 +106,5 @@ This is just one of many possible formulas, but this one is pretty popular and u
 ## **Using Large Data Sets**
 
 *Data for machine learning:*  
+Under certain conditions, getting a lot of data can be very effective.  
+Can a human expert look at features x and accurately predict y + do we use an algo with lots of parameters.
