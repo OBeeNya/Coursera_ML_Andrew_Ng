@@ -15,3 +15,7 @@ Also we are not controlling anymore the values of the parameters with lambda, bu
 When the cost function for logistic regression could be written as A + 𝜆B, here we have CA + B.
 
 *Large margin intuition:*  
+SVM is also called large margin classifier because it will find the parameters separating the data with the largest margin possible.  
+In presence of outliers, the boundary will be dependant on the value of C (higher C means more consideration regarding outliers).  
+
+*Mathematics behind large margin classification:*  
