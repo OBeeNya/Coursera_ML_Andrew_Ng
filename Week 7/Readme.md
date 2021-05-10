@@ -19,3 +19,19 @@ SVM is also called large margin classifier because it will find the parameters s
 In presence of outliers, the boundary will be dependant on the value of C (higher C means more consideration regarding outliers).  
 
 *Mathematics behind large margin classification:*  
+Orthogonal projection of a vector onto an other and magnitude *p*.  
+![alt text](https://i.imgur.com/nNJssjr.jpg)  
+p is either positive or negative, depending on the angle of the two vectors.  
+![alt text](https://i.imgur.com/hOXeZ4n.jpg)  
+with ![alt text](https://i.imgur.com/CZ2PORj.jpg)  
+The objective of the optimization is to minimize the square norm of the vector theta.  
+![alt text](https://i.imgur.com/SH86HZp.jpg)  
+so we want the right term be >1 or <-1.  
+If the boundary doesn't have a large margin, so close to the training examples, p(i) will be pretty small (positively or negatively).  
+So in order to have the right term >1 or <-1, we would need a large theta.  
+But we want to find a set of parameters where the norm of theta is small.  
+If the boundary has a large margin, p(i) will be larger, and we won't need such a large theta.
+
+## **Kernels**
+
+*Kernels I:*  
