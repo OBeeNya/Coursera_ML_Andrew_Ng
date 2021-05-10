@@ -56,3 +56,24 @@ Large C (1/lambda) : low bias and high variance, and inverse.
 Large sigma^2 : high bias and low variance, and inverse.
 
 *SVMs in practice:*  
+Use software packages that are already well optimized, don't write code yourself.  
+You still need to specify C and the choice of kernel.  
+
+No kernel = linear kernel, useful with a large number of features and a small training set.  
+
+Gaussian kernel: you still need to specify sigma, useful for small number of features and/or large training set.  
+Depending on the package, you might still need to provide a kernel function.  
+Do still use feature scaling.  
+
+Other kernels need to satisfy the technical condition called "Mercer's theorem" to make sure SVM's pacakges run correctly and do not diverge.  
+Other "esoteric" kernels: polynomial kernel ( k = (X^T * l + cst)^deg ), string kernel, chi-square kernel, histogram intersection kernel...  
+
+For multi-class classification, either use built-in methods, or one-vs-all still works.  
+
+Vs logistic regression:  
+- n>>m : logistic regression of SVM with linear kernel
+- small n + intermediate m : SVM with gaussian kernel
+- small n + large m : create features then  use logistic regression or SVM with linear kernel  
+Neural network works for all those situations but can be slower.  
+
+The SVM cost function is convex so no risk of local optimum.
