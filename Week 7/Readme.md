@@ -40,6 +40,7 @@ Let's define new features.
 We can start by defining some landmarks l(i).  
 The new feature f:  
 ![alt text](https://i.imgur.com/xx706gL.jpg)  
+This specific kernel is a *gaussian kernel*.  
 If x and l are similar, k will be close to 1.  
 If x is far from l, k will be close to 0.  
 If sigma is large, f will derive more slowly.
