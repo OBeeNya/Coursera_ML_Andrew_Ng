@@ -47,3 +47,12 @@ If sigma is large, f will derive more slowly.
 We precdict y=1 if theta*f>0.
 
 *Kernel II:*  
+In practice we set landmarks equal to the training set.  
+l(m) = x(m)  
+We compute the f vector of m dimensions using the kernel formula.  
+We can then minimize the cost function (same equation) except theta is also of m dimension now, and the regularization term can be replaced by theta^T * theta.  
+Kernels can technically work on other algo but it really works well with SVM.  
+Large C (1/lambda) : low bias and high variance, and inverse.  
+Large sigma^2 : high bias and low variance, and inverse.
+
+*SVMs in practice:*  
