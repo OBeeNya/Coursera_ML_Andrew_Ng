@@ -43,6 +43,7 @@ The new feature f:
 This specific kernel is a *gaussian kernel*.  
 If x and l are similar, k will be close to 1.  
 If x is far from l, k will be close to 0.  
-If sigma is large, f will derive more slowly.
+If sigma is large, f will derive more slowly.  
+We precdict y=1 if theta*f>0.
 
 *Kernel II:*  
