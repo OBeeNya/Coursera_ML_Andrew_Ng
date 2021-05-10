@@ -35,3 +35,13 @@ If the boundary has a large margin, p(i) will be larger, and we won't need such 
 ## **Kernels**
 
 *Kernels I:*  
+We've seen previously that we could use polynomial features to describe non linear functions. But those can be quite expensive.  
+Let's define new features.  
+We can start by defining some landmarks l(i).  
+The new feature f:  
+![alt text](https://i.imgur.com/xx706gL.jpg)  
+If x and l are similar, k will be close to 1.  
+If x is far from l, k will be close to 0.  
+If sigma is large, f will derive more slowly.
+
+*Kernel II:*  
