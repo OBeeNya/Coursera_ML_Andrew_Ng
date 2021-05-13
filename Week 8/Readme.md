@@ -44,3 +44,13 @@ compute J
 Finally pick the clustering with the lowest J.
 
 *Choosing the number of clusters:*  
+There is no perfect automated way to select the number of clusters.  
+Usually it's chosen manually.  
+The true number of clusters can be ambiguous, but this is part of unsupervised learning.  
+The *elbow method* consists of computing J as a function of K number of clusters, and look for point where stops decreasing as much.  
+In practice, it is not often used because the curve might not have a very well defined elbow.  
+Sometimes, you use K-means with an already well defined purpose. A better way to determine K is to see how well different numbers of clusters serve that later downstream purpose.
+
+**Motivation**
+
+*Motivation I: Data compression:*  
