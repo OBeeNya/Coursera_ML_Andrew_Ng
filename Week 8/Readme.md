@@ -26,3 +26,10 @@ If a cluster ends up with 0 points, you can eliminate it. If you really need to 
 Non-separated clusters: clusters are not very distinct from one an other.
 
 *Optimization objective:*  
+K-means algo also has a cost function that we want to minimize. Useful for 2 purposes: debugging and findinf better clusters / avoid local optima.  
+μc(i) := cluster centroid to which x(i) has been assigned  
+![alt text](https://i.imgur.com/vkzsBL3.png)  
+The cluster assignment step minimize J with c.  
+The centroid move step minimize J with μ.
+
+*Random initialization:*  
