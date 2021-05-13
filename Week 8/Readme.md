@@ -28,7 +28,7 @@ Non-separated clusters: clusters are not very distinct from one an other.
 *Optimization objective:*  
 K-means algo also has a cost function that we want to minimize. Useful for 2 purposes: debugging and finding better clusters / avoid local optima.  
 μc(i) := cluster centroid to which x(i) has been assigned  
-![alt text](https://i.imgur.com/vkzsBL3.png)  
+![alt text](https://i.imgur.com/vkzsBL3.png) also called distortion function  
 The cluster assignment step minimize J with c.  
 The centroid move step minimize J with μ.
 
