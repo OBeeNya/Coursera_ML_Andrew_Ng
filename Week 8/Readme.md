@@ -33,3 +33,14 @@ The cluster assignment step minimize J with c.
 The centroid move step minimize J with μ.
 
 *Random initialization:*  
+K must be inferior to m.  
+Set μs equal to random xs.  
+This randomness can give you different solutions / local optima.  
+To mitigate that, try multiple initialization:  
+for i=1 to 50/1000  
+randomly initialize K  
+use K-means  
+compute J  
+Finally pick the clustering with the lowest J.
+
+*Choosing the number of clusters:*  
