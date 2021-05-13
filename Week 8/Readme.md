@@ -36,7 +36,7 @@ The centroid move step minimize J with μ.
 K must be inferior to m.  
 Set μs equal to random xs.  
 This randomness can give you different solutions / local optima.  
-To mitigate that, try multiple initialization:  
+To mitigate that, try multiple initializations:  
 for i=1 to 50/1000  
 randomly initialize K  
 use K-means  
