@@ -51,6 +51,6 @@ The *elbow method* consists of computing J as a function of K number of clusters
 In practice, it is not often used because the curve might not have a very well defined elbow.  
 Sometimes, you use K-means with an already well defined purpose. A better way to determine K is to see how well different numbers of clusters serve that later downstream purpose.
 
-**Motivation**
+## **Motivation**
 
 *Motivation I: Data compression:*  
