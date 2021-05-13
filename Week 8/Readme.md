@@ -19,6 +19,7 @@ min || x(i) - μk ||^2
 - move centroid to the average of the points of the same group  
 for k=1 to K  
 μk := average/mean of points assigned to cluster k  
+
 Repeat until convergence. 
 This algo takes 2 inputs: K and X. xs dropped by convention.  
 If a cluster ends up with 0 points, you can eliminate it. If you really need to have K clusters, you can randomly initialize it again.  
