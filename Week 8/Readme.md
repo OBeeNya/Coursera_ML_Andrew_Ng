@@ -94,3 +94,19 @@ How to go back from k-dimension to n-dimension:
 Xapprox = Ureduced * z ;  
 
 *Choosing the number of principal components:*  
+K is called the number of principle compnents that were retained.  
+PCA tries to minimize the average the average squared projection error.  
+The total variation of the data is:  
+![alt text](https://i.imgur.com/V0fHrXa.png) on average how far is a training example from the origin  
+A good rule of thumb to choose K is:  
+![alt text](https://i.imgur.com/ptlIZL6.png)  
+"I chose K so that 99% of the variance is retained."  
+One way to implement this could be:  
+k = 1 ;  
+while { 99% of variance is not retained }  
+do { k++ }  
+But this is inefficient.  
+When calling svd, S is a diagonal matrix.  
+For given k:  
+![alt text](blob:https://imgur.com/f8da3e78-c596-4552-9069-d3d028c19b45)  
+
