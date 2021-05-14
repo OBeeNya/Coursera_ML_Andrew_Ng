@@ -108,5 +108,6 @@ do { k++ }
 But this is inefficient.  
 When calling svd, S is a diagonal matrix.  
 For given k:  
-![alt text](blob:https://imgur.com/f8da3e78-c596-4552-9069-d3d028c19b45)  
+![alt text](https://i.imgur.com/XtI8FMx.png)  
 
+*Advice for applying PCA:*  
