@@ -111,3 +111,9 @@ For given k:
 ![alt text](https://i.imgur.com/XtI8FMx.png)  
 
 *Advice for applying PCA:*  
+When running PCA, only run it on the training set, not on cv and test sets.  
+You get a mapping that you can then apply to cv and test sets.  
+For compression, choose k to retain % of variance.  
+For visualization, k = 2/3.  
+Don't use PCA to prevent overfitting. It might work, but use regularization instead which takes into account the labels.  
+Before implementing PCA, first try without then see if it's necessary.
