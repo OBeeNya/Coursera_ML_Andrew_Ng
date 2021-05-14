@@ -78,19 +78,19 @@ Don't forget about the data preprocessing steps: mean normalization and feature 
 The mathematical proof for PCA is out of the scope of this course.  
 1/ Compute the co-variance matrix:  
 ![alt text](https://i.imgur.com/MYcl0Fp.png)  
-In Octave: Sigma = 1/m * X' * X;  
+In Octave: Sigma = 1/m * X' * X ;  
 2/ Compute the *eigenvectors* of Sigma.  
-In Octave: [U, S, V] = svd(Sigma);  
+In Octave: [U, S, V] = svd(Sigma) ;  
 U being the matrix we're interested in, of dimensions nxn. Each column of U represents a vector.  
 3/ To reduce from n dimensions to k dimensions, take the first k columns/vectors of U.  
-In Octave: Ureduced = U(:, 1:k); dimension nxk  
-4/ Finally you compute z = Ureduced^T * x; dimension k  
-In Octave: z = Ureduced' * x;
+In Octave: Ureduced = U(:, 1:k) ; dimension nxk  
+4/ Finally you compute z = Ureduced^T * x ; dimension k  
+In Octave: z = Ureduced' * x ;
 
 ## **Applying PCA**
 
 *Reconstruction from compressed representation:*  
 How to go back from k-dimension to n-dimension:  
-Xapprox = Ureduced * z;  
+Xapprox = Ureduced * z ;  
 
 *Choosing the number of principal components:*  
