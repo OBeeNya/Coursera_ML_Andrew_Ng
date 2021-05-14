@@ -61,3 +61,9 @@ You can also reduce the dimension when certain features are highly correlated.
 You represent each training examples as a combination of new vectors.
 
 *Motivation II: Visualization:*  
+A second application of dimensionality reduction is visualization.  
+If you reduce features of dimension to 2D it becomes much easier to plot it and maybe make more sense of it.
+
+## **Principal Component Analysis**
+
+*Principal Component Analysis: Problem formulation:*  
