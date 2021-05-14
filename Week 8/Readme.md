@@ -54,3 +54,10 @@ Sometimes, you use K-means with an already well defined purpose. A better way to
 ## **Motivation**
 
 *Motivation I: Data compression:*  
+One type of unsupervised learning problem is *dimensionality reduction*.  
+One reason to use it is for *data compression*, uses up less computer space + speeds up learning algo.  
+Redundant features are not that rare when working with hundreds of features obtained from different sources.  
+You can also reduce the dimension when certain features are highly correlated.  
+You represent each training examples as a combination of new vectors.
+
+*Motivation II: Visualization:*  
