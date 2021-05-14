@@ -67,3 +67,10 @@ If you reduce features of dimension to 2D it becomes much easier to plot it and 
 ## **Principal Component Analysis**
 
 *Principal Component Analysis: Problem formulation:*  
+PCA is by far the most popular algorithm.  
+Before applying PCA, it's good practice to first perform mean normalization and feature scaling.  
+To reduce from n-dimension to k-dimension, find k vectors onto which to project the data so as to minimize the square projection error.  
+In other words, we're going to project the data onto the linear subspace spanned by the set of vectors.  
+Despite cosmetic similarity, PCA is not linear regression.
+
+*Principal Component Analysis: Analysis algorithm:*  
