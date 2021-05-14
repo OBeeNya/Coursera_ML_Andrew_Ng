@@ -90,3 +90,7 @@ In Octave: z = Ureduced' * x;
 ## **Applying PCA**
 
 *Reconstruction from compressed representation:*  
+How to go back from k-dimension to n-dimension:  
+Xapprox = Ureduced * z;  
+
+*Choosing the number of principal components:*  
