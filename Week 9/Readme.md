@@ -50,3 +50,11 @@ We only need the negative examples to estimate p(x).
 Also with enough positiive examples, future positive examples are more likely to be similar to ones from the training set (supervised better).  
 
 *Choosing what features to use:*  
+What features you choose has a hige effect on how well the algorithm does.  
+If the data doesn't look Gaussian, the algorithm will often still work fine.  
+You can play with different transformations of the data to make it look more Gaussian: log(x+c), x^(1/c)...  
+You can perform error analysis, as seen with supervised learning, look at examples for which predictions were wrong and see if we can come up with new features.  
+
+## **Multivariate Gaussian Distribution**
+
+*Multivariate Gaussian Distribution:*  
