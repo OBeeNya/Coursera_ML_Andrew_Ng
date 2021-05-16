@@ -69,4 +69,9 @@ This can be useful to model correlation.
 ![alt text](https://i.imgur.com/dNj82lQ.png)  
 2/Compute p(x)  
 The multivariate model is identical to the original model. The original model has a constraint, the covariance matrix Sigma must have 0's on the off diagonal elements.  
-When to use which model? The MGD automatically captures correlations between features, while the original model 
+When to use which model? The MGD automatically captures correlations between features, while the original model is computationally cheaper / scales better to large n.  
+Also for the MGD, m must be > n, or else Sigma matrix is non-invertible (be also careful of redundant features).  
+
+## **Predicting Movie Ratings**
+
+*Problem formulation:*  
