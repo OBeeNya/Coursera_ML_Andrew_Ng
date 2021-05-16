@@ -23,7 +23,7 @@ Independance assumption on the values of the features x:
 ![alt text](https://i.imgur.com/vz9fOHA.png)  
 The problem of estimating this distribution p of x is sometimes called the problem of *density estimation*.  
 1/ Choose features that might be indicative of anomalous examples.  
-2/ Fit parameters 𝜇 and 𝜎:  
+2/ Fit parameters 𝜇 and 𝜎 (vectorization possible):  
 ![alt text](https://i.imgur.com/pRdCrvD.png)  
 ![alt text](https://i.imgur.com/PSj7aAL.png)  
 3/ Given a new example x, compute p(x):  
