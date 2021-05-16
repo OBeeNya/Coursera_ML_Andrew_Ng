@@ -90,4 +90,4 @@ For each user j, learn a parameter θj in R^n+1.
 Predict user j as rating movie i with θ(j)^T.x(i).  
 m(j) := number of movies rated by user j  
 To learn θ(j):  
-![alt text](https://i.imgur.com/9m4I0qi.png)  
+![alt text](https://i.imgur.com/hJ9we2F.png)  
