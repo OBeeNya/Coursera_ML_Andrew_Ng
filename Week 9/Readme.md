@@ -77,10 +77,17 @@ Also for the MGD, m must be > n, or else Sigma matrix is non-invertible (be also
 *Problem formulation:*  
 *Recommender systems* are an important application of ML.  
 Notation:  
-nu := number of users  
-nm := number of movies  
+n(u) := number of users  
+n(m) := number of movies  
 r(i,j) = 1 if user j rated movie i  
 y(i,j) = rating given by user j to movie i  
 Our job would be to come up with a learning algorithm that can automatically go fill in the missing ratings.  
 
 *Content based recommendations:*  
+A first approach to recommended ystems is content-based recommendation.  
+Features vector in R^n+1, x0 not included.  
+For each user j, learn a parameter θj in R^n+1.  
+Predict user j as rating movie i with θ(j)^T.x(i).  
+m(j) := number of movies rated by user j  
+To learn θ(j):  
+![alt text](https://i.imgur.com/9m4I0qi.png)  
