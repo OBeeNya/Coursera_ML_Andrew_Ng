@@ -33,7 +33,7 @@ The problem of estimating this distribution p of x is sometimes called the probl
 
 *Developing and evaluating an anomaly detection system:*  
 How to go about developing a specific application of anomaly detection.  
-Remember the importance of a real-number evluation to elp making decisions / evaluate our learning algo.  
+Remember the importance of a real-number evaluation to help making decisions / evaluate our learning algo.  
 Assume we have some labeled data, anomalous and non-anomalous data.  
 Training set would be composed almost only of normal examples (60%).  
 CV and test sets would be composed of 20% of the remaining normal examples each + half each of the anomalous examples.  
