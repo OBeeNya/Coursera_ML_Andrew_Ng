@@ -101,3 +101,7 @@ Gradient descent:
 ## **Collaborative Filtering**
 
 *Collaborative filtering:*  
+Another recommended system.  
+This algorithm can start to learn which features to use.  
+Suppose we have a dataset where we don't know the values of features (i.e. which genre it relates to the most).  
+If we can first get the parameters θ from the users, it becomes possible to try to infer what are the values of x1 and x2 for each movie.  
