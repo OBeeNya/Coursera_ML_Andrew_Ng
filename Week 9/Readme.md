@@ -47,6 +47,6 @@ To choose 𝜖, try different values on CV set and see which one maximizes the F
 If we have labeled data, why don't we use supervised learning?  
 Anomaly detection can be more fruitful with a very small number of positive examples and a large number of negative examples.  
 We only need the negative examples to estimate p(x).  
-Also with enough positiive examples, future positive examples are more likely to be similar to ones from the trainin set (supervised better).  
+Also with enough positiive examples, future positive examples are more likely to be similar to ones from the training set (supervised better).  
 
 *Choosing what features to use:*  
