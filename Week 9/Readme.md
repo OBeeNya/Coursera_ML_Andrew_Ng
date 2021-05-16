@@ -96,7 +96,7 @@ which can be simplified as:
 To learn all parameters:  
 ![alt text](https://i.imgur.com/aD1Icfa.png)  
 Gradient descent:  
-![alt text](https://i.imgur.com/WGBCv1x.png) similar to linear regression except for 1:m  
+![alt text](https://i.imgur.com/WGBCv1x.png) similar to linear regression except for 1/m  
 
 ## **Collaborative Filtering**
 
