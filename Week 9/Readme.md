@@ -58,3 +58,10 @@ You can perform error analysis, as seen with supervised learning, look at exampl
 ## **Multivariate Gaussian Distribution**
 
 *Multivariate Gaussian Distribution:*  
+This extension can sometimes catch anomalies that the earlier algorithm didn't.  
+Instead of modeling p(x1)...p(xn) separately, we're going to model p(x) all in one go.  
+Parameters ![alt text](https://i.imgur.com/VTlJxgX.png) (covariance matrix)  
+![alt text](https://i.imgur.com/gx4zaZr.png) with |Σ| the determinant of Σ  
+This can be useful to model correlation.
+
+*Anomaly detection using the Multivariate Gaussian Distribution:*  
