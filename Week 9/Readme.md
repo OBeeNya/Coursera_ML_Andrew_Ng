@@ -91,3 +91,7 @@ Predict user j as rating movie i with θ(j)^T.x(i).
 m(j) := number of movies rated by user j  
 To learn θ(j):  
 ![alt text](https://i.imgur.com/hJ9we2F.png)  
+which can be simplified as:  
+![alt text](https://i.imgur.com/oJOXqws.png)  
+To learn all parameters:  
+![alt text](https://i.imgur.com/aD1Icfa.png)  
