@@ -109,3 +109,9 @@ Given some parameters, to learn x(i):
 ![alt text](https://i.imgur.com/6Frcay5.png)  
 and to learn all features:  
 ![alt text](https://i.imgur.com/mtc3WgW.png)  
+We first estimated parameters based on known movie ratings.  
+Then we estimated features based on known parameters.  
+Chicken and egg problem: which comes first?  
+Guess θ, then estimate features, then estimate new parameters, and so on... until your algorithm converges to reasonable sets of features and parameters.  
+
+*Collaborative filtering algorithm:*  
