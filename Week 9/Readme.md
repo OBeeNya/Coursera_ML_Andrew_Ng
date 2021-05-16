@@ -84,7 +84,7 @@ y(i,j) = rating given by user j to movie i
 Our job would be to come up with a learning algorithm that can automatically go fill in the missing ratings.  
 
 *Content based recommendations:*  
-A first approach to recommended ystems is content-based recommendation.  
+A first approach to recommended systems is content-based recommendation.  
 Features vector in R^n+1, x0 not included.  
 For each user j, learn a parameter θj in R^n+1.  
 Predict user j as rating movie i with θ(j)^T.x(i).  
