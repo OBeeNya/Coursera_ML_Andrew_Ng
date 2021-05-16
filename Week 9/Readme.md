@@ -65,3 +65,8 @@ Parameters ![alt text](https://i.imgur.com/VTlJxgX.png) (covariance matrix)
 This can be useful to model correlation.
 
 *Anomaly detection using the Multivariate Gaussian Distribution:*  
+1/ Fit the parameters, same formula for 𝜇, but:  
+![alt text](https://i.imgur.com/dNj82lQ.png)  
+2/Compute p(x)  
+The multivariate model is identical to the original model. The original model has a constraint, the covariance matrix Sigma must have 0's on the off diagonal elements.  
+When to use which model? The MGD automatically captures correlations between features, while the original model 
