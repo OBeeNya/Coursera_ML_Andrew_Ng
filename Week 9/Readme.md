@@ -92,6 +92,12 @@ m(j) := number of movies rated by user j
 To learn θ(j):  
 ![alt text](https://i.imgur.com/hJ9we2F.png)  
 which can be simplified as:  
-![alt text](https://i.imgur.com/oJOXqws.png)  
+![alt text](https://i.imgur.com/oJOXqws.png) because m is a constant  
 To learn all parameters:  
 ![alt text](https://i.imgur.com/aD1Icfa.png)  
+Gradient descent:  
+![alt text](https://i.imgur.com/WGBCv1x.png) similar to linear regression except for 1:m  
+
+## **Collaborative Filtering**
+
+*Collaborative filtering:*  
