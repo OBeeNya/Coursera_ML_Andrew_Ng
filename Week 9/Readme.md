@@ -75,3 +75,12 @@ Also for the MGD, m must be > n, or else Sigma matrix is non-invertible (be also
 ## **Predicting Movie Ratings**
 
 *Problem formulation:*  
+*Recommender systems* are an important application of ML.  
+Notation:  
+nu := number of users  
+nm := number of movies  
+r(i,j) = 1 if user h rated movie i  
+y(i,j) = rating given by user j to movie i  
+Our job would be to come up with a learning algorithm that can automatically go fill in the missing ratings.  
+
+*Content based recommendations:*  
