@@ -139,3 +139,9 @@ This is low rank matrix factorization.
 Another thing you can do is once having learned the features, you can find similar movies. If ||x(i)-x(j)|| is small.
 
 *Implementation detail: Mean normalization:*  
+If a user never rated any movies, the parameters learn would be zero matrix.  
+All predicted ratings for that user would then be equal to 0 and we wouldn't be able to recommend any movie.  
+To prevent that we're going to apply mean normalization:  
+![alt text](https://i.imgur.com/8qE2A1G.png)  
+And when predicting new rating, we add back the mu:  
+θ(j)T * x(i) + μ(i)  
