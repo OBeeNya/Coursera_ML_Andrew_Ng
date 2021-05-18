@@ -115,3 +115,12 @@ Chicken and egg problem: which comes first?
 Guess θ, then estimate features, then estimate new parameters, and so on... until your algorithm converges to reasonable sets of features and parameters.  
 
 *Collaborative filtering algorithm:*  
+There is an efficient algorithm that doesn't need to go back and forth between the features and the parameters.  
+Basically, the two previous optimization objectives but put together:  
+![alt text](https://i.imgur.com/iDAEaNu.png)  
+Minimize J as a function of both the features and the parameters.  
+We are doing away with the convention x0=1, so the features that we are going to learn are going to be in R^n, and not R^n+1.  
+We don't need to hardcode x0=1 because the algorithm can choose to learn for itself that x1=1 if necessary.  
+In summary:  
+1/ Initialize features and parameters to random values  
+2/ Min J using gradient descent (or an advanced optimization algo), i.e. for every j=1...n(u) and i=1...n(m):  
