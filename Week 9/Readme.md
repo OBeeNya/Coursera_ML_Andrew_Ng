@@ -124,3 +124,10 @@ We don't need to hardcode x0=1 because the algorithm can choose to learn for its
 In summary:  
 1/ Initialize features and parameters to random values  
 2/ Min J using gradient descent (or an advanced optimization algo), i.e. for every j=1...n(u) and i=1...n(m):  
+![alt text](https://i.imgur.com/LMANC2k.png)  
+In this formalization, we are regularizing every x and θ because there's no longer the special case of θ0.  
+3/ For a user, predict movie rating with θT * x.
+
+## **Low Rank Matrix Factorization**
+
+*Vectorization: Low Rank Matrix Factorization:*  
