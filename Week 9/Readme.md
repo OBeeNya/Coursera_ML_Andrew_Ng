@@ -131,3 +131,11 @@ In this formalization, we are regularizing every x and θ because there's no lon
 ## **Low Rank Matrix Factorization**
 
 *Vectorization: Low Rank Matrix Factorization:*  
+The predicted ratings can be grouped in one matrix as follows:  
+![alt text](https://i.imgur.com/RNEGUd3.png)  
+which can be obtained by multiplying the 2 matrices:  
+![alt text](https://i.imgur.com/7Ik916N.png)  
+This is low rank matrix factorization.  
+Another thing you can do is once having learned the features, you can find similar movies. If ||x(i)-x(j)|| is small.
+
+*Implementation detail: Mean normalization:*  
