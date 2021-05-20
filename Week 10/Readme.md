@@ -9,3 +9,5 @@ Before investing a lot of effort on developing a software, a good sanity check i
 If we find a hihg-variance algo, it is safe to assume that more data will indeed be useful.  
 
 *Stochastic Gradient Descent:*  
+The problem with gradient descent is that computing the derivative term will be very expensive if m is very large.  
+The usual method we saw before is called the *Batch Gradient Descent*.  
