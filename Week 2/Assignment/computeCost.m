@@ -1,5 +1,3 @@
-% computeCost.m
-
 function J = computeCost(X, y, theta)
 
 m = length(y);
