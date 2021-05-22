@@ -42,3 +42,10 @@ It might be useful to play with 𝛼 and the number of avergaed examples to get 
 ## **Advanced Topics**
 
 *Online learning:*  
+Online learning setting allows to learn from a continuous stream of data.  
+Let's say when a new user comes on a website, you get new (x, y).  
+You update 𝜃(j) = 𝜃(j) - 𝛼(h𝜃(x)-y)xj  
+and can discard (x, y), only used once.  
+This type of learning algo adapts well to changing over features.
+
+*Map reduce and Data parallelism:*  
