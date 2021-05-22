@@ -24,3 +24,12 @@ With this method, the parameters won't stay in the global/local optimum but will
 In practice this is ok with very large datasets.  
 
 *Mini-Batch Gradient Descent:*  
+Instead of m examples or 1 example in each iteration, we'll train over b examples in one iteration.  
+b = mini-batch size, typically in [2 ; 100]  
+Repeat:  
+![alt text](https://i.imgur.com/ZT7EB13.png)  
+Just like SGD, this is faster than BGD.  
+But it can also be more effective than SGD because with proper vectorization, it allows for partial parallelized computation.  
+One disadvantage is having to determine an additional parameter.  
+
+*Stochastic Gradient Descent Convergence:*  
