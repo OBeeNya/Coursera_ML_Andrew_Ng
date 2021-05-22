@@ -241,7 +241,7 @@ Stochastic gradient descent convergence
 *Advanced topics*
 
 Online learning  
-Map redcue and data parallelism
+Map reduce and data parallelism
 
 ## **Week 11**
 
