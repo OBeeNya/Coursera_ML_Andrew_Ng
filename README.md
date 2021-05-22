@@ -37,5 +37,5 @@ Matrix-matrix multiplication
 Matrix multiplication properties  
 Inverse and transpose
 
-## *Week 2*
+## **Week 2**
 
