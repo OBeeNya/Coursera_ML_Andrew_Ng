@@ -118,7 +118,7 @@ Backpropagation intuition
 
 *Backpropagation in practice*
 
-Implementation nbote: unrolling parameters  
+Implementation note: unrolling parameters  
 Gradient checking  
 Random initialization  
 Putting it together  
