@@ -52,7 +52,7 @@ Features and polynomial regression
 *Computing parameters analytically*
 
 Normal equation  
-Normal equation noninveribility  
+Normal equation noninvertibility  
 
 *Submitting programming assignments*
 
