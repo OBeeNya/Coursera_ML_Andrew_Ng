@@ -39,7 +39,7 @@ Inverse and transpose
 
 ## **Week 2**
 
-*Environment setup instructions
+*Environment setup instructions*
 
 *Multivariate linear regression*
 
