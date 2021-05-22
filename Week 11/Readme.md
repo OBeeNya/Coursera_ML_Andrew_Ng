@@ -12,3 +12,6 @@ How to read text in images.
 These steps are the *ML pipeline*, and a good choice of modules can be every important in the efficiency of the overall system.  
 
 *Sliding windows:*  
+Ratios, step-size/stride, expansion...
+
+*Getting lots of data and artificial data:*  
