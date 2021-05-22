@@ -9,6 +9,6 @@ How to read text in images.
 2/ Character segmentation  
 3/ Character recognition  
 4/ Spelling correction  
-This steps are the *ML pipeline*, and a good choice of modules can be every important in the efficiency of the overall system.  
+These steps are the *ML pipeline*, and a good choice of modules can be every important in the efficiency of the overall system.  
 
 *Sliding windows:*  
