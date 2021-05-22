@@ -33,3 +33,12 @@ But it can also be more effective than SGD because with proper vectorization, it
 One disadvantage is having to determine an additional parameter.  
 
 *Stochastic Gradient Descent Convergence:*  
+With SGD, it is not smart to plot J(train) as a function of the number of iterations because the point is to start making progress after looking at just a single example.  
+So we can compute the cost (𝜃, (x(i), y(i))) right before updating 𝜃.  
+Then every 1000 or so iterations, plot the cost averaged over the last 1000 examples.  
+It might be useful to play with 𝛼 and the number of avergaed examples to get a meaningful plot.  
+𝛼 is typically held constant. Wen can slowly decrease it over time if we want 𝜃 to converge, but in practice it is rarely done.
+
+## **Advanced Topics**
+
+*Online learning:*  
