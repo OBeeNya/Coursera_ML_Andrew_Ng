@@ -49,3 +49,9 @@ and can discard (x, y), only used once.
 This type of learning algo adapts well to changing over features.
 
 *Map reduce and Data parallelism:*  
+Some ML problems are too big to run on just one machine.  
+The map reduce approach is simple to explain but it is just as important as say SGD.  
+The idea is to split the training set into subsets, and each machine will compute the sume of errors + derivatives on each of this subset.  
+Then a centralized machine will combine the results together to update the parameters.  
+Instead of using different machines, you can use map reduce on a single computer through multi-core processors.  
+Some linear algebra libraries can automatically parallelize their operations across multiple cores.
